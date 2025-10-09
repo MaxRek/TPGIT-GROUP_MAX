@@ -45,8 +45,9 @@ public class Console {
 
 	@Override
 	public String toString() {
-		return "Console [nom=" + nom + "]";
+		return "Console [nom=" + nom + ", prix=" + prix + ", dateDeSortie=" + dateDeSortie + "]";
 	}
+
 	
 	
 }
