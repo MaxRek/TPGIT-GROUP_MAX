@@ -7,7 +7,6 @@ public class Adresse {
 	String ville;
 	
 	public Adresse(int numero, String rue, String ville) {
-		super();
 		this.numero = numero;
 		this.rue = rue;
 		this.ville = ville;
