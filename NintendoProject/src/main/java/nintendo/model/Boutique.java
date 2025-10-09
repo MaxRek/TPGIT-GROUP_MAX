@@ -2,10 +2,10 @@ package nintendo.model;
 
 public class Boutique {
 	String nom;
-	String Adresse;
-	public Boutique(String nom, String adresse) {
+	Adresse adresse;
+	public Boutique(String nom, Adresse adresse) {
 		this.nom = nom;
-		Adresse = adresse;
+		this.adresse = adresse;
 	}
 	public String getNom() {
 		return nom;
@@ -13,16 +13,17 @@ public class Boutique {
 	public void setNom(String nom) {
 		this.nom = nom;
 	}
-	public String getAdresse() {
-		return Adresse;
+	public Adresse getAdresse() {
+		return adresse;
 	}
-	public void setAdresse(String adresse) {
-		Adresse = adresse;
+	public void setAdresse(Adresse adresse) {
+		this.adresse = adresse;
 	}
 	@Override
 	public String toString() {
-		return "Boutique [nom=" + nom + ", Adresse=" + Adresse + "]";
+		return "Boutique [nom=" + nom + ", adresse=" + adresse + "]";
 	}
+	
 	
 	
 
